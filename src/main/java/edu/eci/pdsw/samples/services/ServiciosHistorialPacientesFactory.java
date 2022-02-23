@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package edu.eci.pdsw.samples.services;
 
 import com.google.inject.AbstractModule;
@@ -11,10 +7,6 @@ import com.google.inject.Injector;
 import edu.eci.pdsw.samples.services.impl.ServiciosPacientesMock;
 
 
-/**
- *
- * @author hcadavid
- */
 public class ServiciosHistorialPacientesFactory {
 
     private static ServiciosHistorialPacientesFactory instance = new ServiciosHistorialPacientesFactory();
